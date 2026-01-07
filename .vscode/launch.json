@@ -2,14 +2,26 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "name": "Debug Pt4",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "E:/Courses/EmbeddedC/2025_26_Winter/C Codes/Pt4.exe",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "E:/Courses/EmbeddedC/2025_26_Winter/C Codes",
+      "externalConsole": true,
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb"
+    },
+    {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
       "request": "launch",
       "args": [],
       "stopAtEntry": false,
-      "externalConsole": true,
-      "cwd": "e:/Courses/EmbeddedC/2025_26_Winter/Project",
-      "program": "e:/Courses/EmbeddedC/2025_26_Winter/Project/build/Debug/outDebug",
+      "externalConsole": false,
+      "cwd": "e:/Courses/EmbeddedC/2025_26_Winter/C Codes",
+      "program": "e:/Courses/EmbeddedC/2025_26_Winter/C Codes/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
